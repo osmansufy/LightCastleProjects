@@ -5,7 +5,7 @@ const Topbar = () => {
   return (
     <Container>
       <div className="topbarWrapper row justify-content-between mb-2 align-items-center">
-        <div className="info d-flex align-items-center">
+        <div className="info d-flex flex-wrap justify-content-sm-between justify-content-center  align-items-center">
           <div className="phoneNumber mr-4">
             <i className="fa fa-phone mr-2 text-primary"></i>
             <span className="text-light ">+8801951567322</span>
@@ -15,9 +15,9 @@ const Topbar = () => {
             <span className="text-light">osmansufy20@gmail.com</span>
           </div>
         </div>
-        <div className="touchBtn">
+        <div className="touchBtn m-sm-0 mx-auto mx-0">
           <button type="button" class="btn btn-outline-secondary">
-            Secondary
+            Get in touch
           </button>
         </div>
       </div>

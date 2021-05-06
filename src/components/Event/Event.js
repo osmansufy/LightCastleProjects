@@ -4,7 +4,7 @@ import CountDown from "./CountDown";
 const Event = () => {
   return (
     <Container>
-      <div className="row no-gutters">
+      <div className="row no-gutters section">
         <div className="col-md-6">
           <div className="eventBanner">
             <div className="eventForm">

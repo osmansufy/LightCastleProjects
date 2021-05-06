@@ -9,19 +9,37 @@ const NavBar = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-        </Nav>
-        <Nav>
-          <Nav.Link href="#deets">More deets</Nav.Link>
-          <Nav.Link eventKey={2} href="#memes">
-            Dank memes
+        <Nav className="mr-auto ml-5">
+          <Nav.Link className="mx-4 text-dark" href="#features">
+            About
+          </Nav.Link>
+          <Nav.Link className="mx-4 text-dark" href="#pricing">
+            Services
+          </Nav.Link>
+          <Nav.Link className="mx-4 text-dark" href="#deets">
+            Industries
+          </Nav.Link>
+          <Nav.Link className="mx-4 text-dark" eventKey={2} href="#memes">
+            Insight
+          </Nav.Link>
+          <Nav.Link className="mx-4 text-dark" eventKey={2} href="#memes">
+            Clients
           </Nav.Link>
         </Nav>
+
         <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-light">Search</Button>
+          <div class="input-group border-0">
+            <div className="input-group-prepend border-0">
+              <span className="input-group-text border-0" id="basic-addon2">
+                <i class="fa fa-search border-0"></i>
+              </span>
+            </div>
+            <input
+              type="text"
+              class="form-control border-0"
+              placeholder="Search"
+            />
+          </div>
         </Form>
       </Navbar.Collapse>
     </Navbar>

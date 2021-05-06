@@ -7,15 +7,14 @@ const Banner = () => {
         <div className=" col-md-6 ">
           <div className="bannerInfo d-flex  flex-column">
             <h3 className="text-white mb-4">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque officia at rerum nam ipsa
+              Bangladesh's Stimulus Packages Can it stand against Covid-19?
             </h3>
             <div className="buttonGroup d-flex">
-              <button type="button" className="btn mr-3 btn-outline-secondary">
-                Secondary
+              <button type="button" className="btn mr-3 btn-primary">
+                Read article
               </button>
               <button type="button" className="btn btn-outline-secondary">
-                Secondary
+                Covid-19 Series
               </button>
             </div>
           </div>

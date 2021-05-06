@@ -14,7 +14,7 @@ const CountDown = () => {
       return (
         <div className="counterWrapper h-100">
           <h3 className="text-center">Event launch in </h3>
-          <div className="d-flex align-items-center">
+          <div className="d-flex flex-wrap align-items-center">
             <div className="countItem">
               <h4>{days}</h4>
               <p>Days</p>

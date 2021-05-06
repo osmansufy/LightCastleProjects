@@ -15,7 +15,7 @@ const Footer = () => {
               A short introduction about lcp A short introduction about lcp A
               short introduction about lcp
             </p>
-            <div className="socialIcon">
+            <div className="socialIcon justify-content-sm-start justify-content-center mb-sm-0 mb-2">
               <div className="sIconWrapper">
                 <i className="fa fa-facebook-f"></i>
               </div>
@@ -29,10 +29,10 @@ const Footer = () => {
           <div className="footerMenu">
             <ul className="d-flex justify-content-between">
               <li>About</li>
-              <li>About</li>
-              <li>About</li>
-              <li>About</li>
-              <li>About</li>
+              <li>Industries</li>
+              <li>Team</li>
+              <li>Career</li>
+              <li>Get in Touch</li>
             </ul>
           </div>
           <div className="input-group mb-3">
